@@ -47,6 +47,7 @@ public class LoginController {
 		session.save(produto("Fogão", "Brastemp", 250.4, false));
 		session.save(produto("XBOX", "Videogame da Microsoft", 150.0, true));
 		session.save(produto("Celular Samsung", "S3 Novo em folha", 1500.0, false));
+		session.save(produto("Celular Moto G", "G5 em otimo estado", 1000.0, true));
 		
 		session.getTransaction().commit();
 		session.close();

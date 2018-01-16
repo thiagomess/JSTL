@@ -14,11 +14,11 @@
 </head>
 <body>
 	<form action="<c:url value="/produto/adiciona"/>">
-		Nome: <input name="produto.nome" /><br /> 
-		Descricao: <input name="produto.descricao" /><br />
-		Preço: <input name="produto.preco" /><br />
-		Data de início da venda: <caelum:campoData id="dataInicioVenda" name="produto.dataInicioVenda" /><br />
-		Usado:<input type="radio" name="produto.usado">Sim <input type="radio">Não<br /> 
+		Nome: <input name="produto.nome" /><br/> 
+		Descricao: <input name="produto.descricao" /><br/>
+		Preço: <input name="produto.preco" /><br/>
+		Data de início da venda: <caelum:campoData id="dataInicioVenda" name="produto.dataInicioVenda" /><br/>
+		Usado:<input type="radio" value="1" name="produto.usado">Sim <input type="radio" value="0" name="produto.usado">Não<br /> 
 		
 		<input type="submit" />
 	</form>
